@@ -2,6 +2,8 @@ class HelloWorld
 {
 public static void main (String args[])
 {
-System.out.println("Java Hello World");
+  int a=66;
+  if(a%6==0)
+    System.out.println("you got the hit");
 }
 }
